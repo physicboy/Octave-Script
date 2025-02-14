@@ -34,6 +34,7 @@ subplot(2,1,2),plot(tt,rr);grid on;hold off
 subplot(2,1,1)
 ylabel('Absolute Amplitude')
 xlabel('Freq [Hz]')
+legend('Ts = 1\mus','Ts = 0.5\mus','Ts = 0.25\mus')
 
 subplot(2,1,2)
 ylabel('time series')
